@@ -2,55 +2,93 @@
   <img src="./assets/Paul.png" width="900">
 </p>
 
-# Paul Discord Bot
+<h1 align="center">Paul Discord Bot</h1>
 
-> A customizable Discord bot built with Python.
+<p align="center">
+  My first Discord bot project built with Python.
+</p>
 
-## Disclaimer
+---
 
-This project was created for educational purposes and personal learning. The developer is not responsible for any misuse of this software. 
-Please ensure that you comply with Discord's Terms of Service and only use the bot in servers where you have permission to do so.
+## About
 
-## Features
+Paul is a customizable Discord bot built for learning Python and Discord bot development.
+
+This project includes:
 
 * Custom command prefix
 * User whitelist system
-* Easy setup wizard
-* Guild configuration support
-* Administrative utility commands
-* Nickname management
-* Simple deployment process
+* Automatic setup wizard
+* Guild configuration
+* Easy deployment with batch files
 
 ## Installation
 
-Clone the repository:
+### Clone the repository
 
 ```bash
 git clone https://github.com/akatsukibottiktok-blip/Paul_Discord-Bot.git
 cd Paul_Discord-Bot
 ```
 
-Install dependencies:
+### Install requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run:
+### Build the bot
 
 ```bash
 build_bot.bat
 ```
 
-Follow the configuration wizard and enter:
+Follow the setup wizard and enter:
 
 * Bot Token
 * Command Prefix
 * Whitelisted User IDs
 * Guild ID
 
-After configuration, start the bot using:
+### Start the bot
 
 ```bash
 start_bot.bat
 ```
+
+## Requirements
+
+* Python 3.10+
+* Discord Bot Token
+* Internet Connection
+
+## Configuration
+
+Before running the bot:
+
+1. Create a Discord Application.
+2. Create a Bot.
+3. Copy the Bot Token.
+4. Enable the required Gateway Intents.
+5. Invite the bot to your server.
+
+## Repository Structure
+
+```text
+assets/          Images and banners
+modules/         Bot modules
+build.py         Setup wizard
+build_bot.bat    Build script
+start_bot.bat    Launch script
+README.md        Documentation
+```
+
+## Disclaimer
+
+This project was created for educational and learning purposes.
+
+Use it only in servers that you own or have permission to manage. Always follow Discord's Terms of Service.
+
+## License
+
+MIT License
