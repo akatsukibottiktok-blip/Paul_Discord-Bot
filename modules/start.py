@@ -13,9 +13,9 @@ except:
     import discord
     from discord.ext import commands
 
-token = ""
-prefix = ""
-guildid = ""
+token = "{bottoken}"
+prefix = "{cmdprefix}"
+guildid = "{gid}"
 userid = []
 with open('modules\whitelists.txt', 'r') as file:
     for line in file:
